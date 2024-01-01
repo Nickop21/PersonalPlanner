@@ -1,0 +1,79 @@
+
+.main-div{
+    width: 700px;
+  
+
+}
+input[type="text"]{
+    outline: unset;
+    padding: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 86%;
+    border: unset;
+    background-color: rgba(148, 180, 207, 0.128);
+
+
+}
+.adbtn{
+    padding: 12px 15px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    outline: none;
+    background-color: rgba(116, 173, 173, 0.608);
+    border: unset;
+    color: rgb(248, 248, 248);
+    font-weight: 700;
+    width: 10%;
+}
+
+
+/* list */
+.listdiv {
+    width: 670px;
+    background-color: #92b3b7a8;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding:5px 10px;
+
+}
+.listdivcompleted{
+    width: 670px;
+    background-color: #14dc8fa8;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding:5px 10px
+}
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.leftdiv{
+    width: 83%;
+}
+.editableinput{
+    background: none;
+    border: unset;
+    outline: unset;
+    width: 80%;
+    
+}
+.linethrough{
+    text-decoration: line-through;
+}
+.rightdiv{
+    width: 15%;
+
+}
+.btn2{
+    padding: 8px;
+    border-radius: 5px;
+    border: unset;
+    margin: 0 3px;
+    
+}
+.btn2:hover{
+    background-color: rgba(204, 224, 224, 0.6);
+}
